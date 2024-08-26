@@ -53,7 +53,7 @@ def add_bg_from_base64(image_path):
     )
 
 # Call the function with the correct image path
-add_bg_from_base64("C:\\Users\\sasee\\OneDrive\\Desktop\\Tau\\84f5d950-08de-420e-abce-9e06a45455fa.png")
+add_bg_from_base64("84f5d950-08de-420e-abce-9e06a45455fa.png")
 import base64
 from pathlib import Path
 
@@ -117,7 +117,7 @@ def add_bg_to_sidebar(image_path):
         st.sidebar.error(f"Error setting sidebar background: {str(e)}")
 
 # Call the function with the correct image path for the sidebar
-sidebar_bg_path = "C:\\Users\\sasee\\OneDrive\\Desktop\\Tau\\dd17b7d9-c44f-45b7-a81a-dc2b1fdbcb9f.png"
+sidebar_bg_path = "dd17b7d9-c44f-45b7-a81a-dc2b1fdbcb9f.png"
 add_bg_to_sidebar(sidebar_bg_path)
 
 # Load the trained model
